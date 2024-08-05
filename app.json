@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "react_native",
-    "slug": "react_native",
+    "name": "Akash",
+    "slug": "Akash",
+    "scheme": "Akash",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,10 +19,12 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.company.akash"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": ["expo-router"]
   }
 }
